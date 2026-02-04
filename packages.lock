@@ -3,9 +3,9 @@
 		"bookworm": {
 			"sets": {
 				"amd64": {
-					"/bookworm-security/linux-libc-dev:amd64": "6.1.153-1",
 					"/bookworm/libboost-dev:amd64": "1.74.0.3",
 					"/bookworm/libboost-serialization-dev:amd64": "1.74.0.3",
+					"/bookworm/libboost-serialization1.74-dev:amd64": "1.74.0+ds1-21",
 					"/bookworm/libc6-dev:amd64": "2.36-9+deb12u13",
 					"/bookworm/libgcc-12-dev:amd64": "12.2.0-14+deb12u1",
 					"/bookworm/libhiredis-dev:amd64": "0.14.1-3",
@@ -17,6 +17,7 @@
 					"/bookworm/libstdc++6:amd64": "12.2.0-14+deb12u1",
 					"/bookworm/libyang2-dev:amd64": "2.1.30-2",
 					"/bookworm/libzmq3-dev:amd64": "4.3.4-6",
+					"/bookworm/linux-libc-dev:amd64": "6.1.148-1",
 					"/bookworm/nlohmann-json3-dev:all": "3.11.2-2",
 					"/bookworm/python3-dev:amd64": "3.11.2-1+b1",
 					"/bookworm/swig:all": "4.1.0-0.2",
@@ -226,7 +227,8 @@
 				"/bookworm/libcrypt-dev:amd64=1:4.4.33-2",
 				"/bookworm/libcrypt1:amd64=1:4.4.33-2",
 				"/bookworm-security/linux-libc-dev:amd64=6.1.153-1",
-				"/bookworm/libc-dev-bin:amd64=2.36-9+deb12u13"
+				"/bookworm/libc-dev-bin:amd64=2.36-9+deb12u13",
+				"/bookworm/linux-libc-dev:amd64=6.1.148-1"
 			],
 			"filename": "pool/main/e/e2fsprogs/comerr-dev_2.1-1.47.0-2+b2_amd64.deb",
 			"name": "comerr-dev",
@@ -299,7 +301,8 @@
 				"/bookworm/libkadm5clnt-mit12:amd64=1.20.1-2+deb12u4",
 				"/bookworm/libgssrpc4:amd64=1.20.1-2+deb12u4",
 				"/bookworm/libkadm5srv-mit12:amd64=1.20.1-2+deb12u4",
-				"/bookworm/libkdb5-10:amd64=1.20.1-2+deb12u4"
+				"/bookworm/libkdb5-10:amd64=1.20.1-2+deb12u4",
+				"/bookworm/linux-libc-dev:amd64=6.1.148-1"
 			],
 			"filename": "pool/main/k/krb5/krb5-multidev_1.20.1-2+deb12u4_amd64.deb",
 			"name": "krb5-multidev",
@@ -389,7 +392,8 @@
 				"/bookworm/libasan8:amd64=12.2.0-14+deb12u1",
 				"/bookworm/libatomic1:amd64=12.2.0-14+deb12u1",
 				"/bookworm/libitm1:amd64=12.2.0-14+deb12u1",
-				"/bookworm/libgomp1:amd64=12.2.0-14+deb12u1"
+				"/bookworm/libgomp1:amd64=12.2.0-14+deb12u1",
+				"/bookworm/linux-libc-dev:amd64=6.1.148-1"
 			],
 			"filename": "pool/main/b/boost-defaults/libboost-dev_1.74.0.3_amd64.deb",
 			"name": "libboost-dev",
@@ -436,7 +440,8 @@
 				"/bookworm/libasan8:amd64=12.2.0-14+deb12u1",
 				"/bookworm/libatomic1:amd64=12.2.0-14+deb12u1",
 				"/bookworm/libitm1:amd64=12.2.0-14+deb12u1",
-				"/bookworm/libgomp1:amd64=12.2.0-14+deb12u1"
+				"/bookworm/libgomp1:amd64=12.2.0-14+deb12u1",
+				"/bookworm/linux-libc-dev:amd64=6.1.148-1"
 			],
 			"filename": "pool/main/b/boost-defaults/libboost-serialization-dev_1.74.0.3_amd64.deb",
 			"name": "libboost-serialization-dev",
@@ -482,7 +487,8 @@
 				"/bookworm/libasan8:amd64=12.2.0-14+deb12u1",
 				"/bookworm/libatomic1:amd64=12.2.0-14+deb12u1",
 				"/bookworm/libitm1:amd64=12.2.0-14+deb12u1",
-				"/bookworm/libgomp1:amd64=12.2.0-14+deb12u1"
+				"/bookworm/libgomp1:amd64=12.2.0-14+deb12u1",
+				"/bookworm/linux-libc-dev:amd64=6.1.148-1"
 			],
 			"filename": "pool/main/b/boost1.74/libboost-serialization1.74-dev_1.74.0+ds1-21_amd64.deb",
 			"name": "libboost-serialization1.74-dev",
@@ -542,7 +548,8 @@
 				"/bookworm/libasan8:amd64=12.2.0-14+deb12u1",
 				"/bookworm/libatomic1:amd64=12.2.0-14+deb12u1",
 				"/bookworm/libitm1:amd64=12.2.0-14+deb12u1",
-				"/bookworm/libgomp1:amd64=12.2.0-14+deb12u1"
+				"/bookworm/libgomp1:amd64=12.2.0-14+deb12u1",
+				"/bookworm/linux-libc-dev:amd64=6.1.148-1"
 			],
 			"filename": "pool/main/b/boost1.74/libboost1.74-dev_1.74.0+ds1-21_amd64.deb",
 			"name": "libboost1.74-dev",
@@ -638,7 +645,8 @@
 				"/bookworm/libcrypt-dev:amd64=1:4.4.33-2",
 				"/bookworm/libcrypt1:amd64=1:4.4.33-2",
 				"/bookworm-security/linux-libc-dev:amd64=6.1.153-1",
-				"/bookworm/libc-dev-bin:amd64=2.36-9+deb12u13"
+				"/bookworm/libc-dev-bin:amd64=2.36-9+deb12u13",
+				"/bookworm/linux-libc-dev:amd64=6.1.148-1"
 			],
 			"filename": "pool/main/g/glibc/libc6-dev_2.36-9+deb12u13_amd64.deb",
 			"name": "libc6-dev",
@@ -747,7 +755,8 @@
 				"/bookworm/libcrypt1:amd64=1:4.4.33-2",
 				"/bookworm-security/linux-libc-dev:amd64=6.1.153-1",
 				"/bookworm/libc-dev-bin:amd64=2.36-9+deb12u13",
-				"/bookworm/libexpat1:amd64=2.5.0-1+deb12u2"
+				"/bookworm/libexpat1:amd64=2.5.0-1+deb12u2",
+				"/bookworm/linux-libc-dev:amd64=6.1.148-1"
 			],
 			"filename": "pool/main/e/expat/libexpat1-dev_2.5.0-1+deb12u2_amd64.deb",
 			"name": "libexpat1-dev",
@@ -1115,7 +1124,8 @@
 				"/bookworm/libkadm5clnt-mit12:amd64=1.20.1-2+deb12u4",
 				"/bookworm/libgssrpc4:amd64=1.20.1-2+deb12u4",
 				"/bookworm/libkadm5srv-mit12:amd64=1.20.1-2+deb12u4",
-				"/bookworm/libkdb5-10:amd64=1.20.1-2+deb12u4"
+				"/bookworm/libkdb5-10:amd64=1.20.1-2+deb12u4",
+				"/bookworm/linux-libc-dev:amd64=6.1.148-1"
 			],
 			"filename": "pool/main/k/krb5/libkrb5-dev_1.20.1-2+deb12u4_amd64.deb",
 			"name": "libkrb5-dev",
@@ -1518,7 +1528,8 @@
 				"/bookworm/libcrypt-dev:amd64=1:4.4.33-2",
 				"/bookworm/libcrypt1:amd64=1:4.4.33-2",
 				"/bookworm-security/linux-libc-dev:amd64=6.1.153-1",
-				"/bookworm/libc-dev-bin:amd64=2.36-9+deb12u13"
+				"/bookworm/libc-dev-bin:amd64=2.36-9+deb12u13",
+				"/bookworm/linux-libc-dev:amd64=6.1.148-1"
 			],
 			"filename": "pool/main/p/pcre2/libpcre2-dev_10.42-1_amd64.deb",
 			"name": "libpcre2-dev",
@@ -1624,7 +1635,8 @@
 				"/bookworm/libffi8:amd64=3.4.4-1",
 				"/bookworm/libdb5.3:amd64=5.3.28+dfsg2-1",
 				"/bookworm/media-types:all=10.0.0",
-				"/bookworm/libpython3.11-minimal:amd64=3.11.2-6+deb12u6"
+				"/bookworm/libpython3.11-minimal:amd64=3.11.2-6+deb12u6",
+				"/bookworm/linux-libc-dev:amd64=6.1.148-1"
 			],
 			"filename": "pool/main/p/python3-defaults/libpython3-dev_3.11.2-1+b1_amd64.deb",
 			"name": "libpython3-dev",
@@ -1729,7 +1741,8 @@
 				"/bookworm/libffi8:amd64=3.4.4-1",
 				"/bookworm/libdb5.3:amd64=5.3.28+dfsg2-1",
 				"/bookworm/media-types:all=10.0.0",
-				"/bookworm/libpython3.11-minimal:amd64=3.11.2-6+deb12u6"
+				"/bookworm/libpython3.11-minimal:amd64=3.11.2-6+deb12u6",
+				"/bookworm/linux-libc-dev:amd64=6.1.148-1"
 			],
 			"filename": "pool/main/p/python3.11/libpython3.11-dev_3.11.2-6+deb12u6_amd64.deb",
 			"name": "libpython3.11-dev",
@@ -1986,7 +1999,8 @@
 				"/bookworm/libasan8:amd64=12.2.0-14+deb12u1",
 				"/bookworm/libatomic1:amd64=12.2.0-14+deb12u1",
 				"/bookworm/libitm1:amd64=12.2.0-14+deb12u1",
-				"/bookworm/libgomp1:amd64=12.2.0-14+deb12u1"
+				"/bookworm/libgomp1:amd64=12.2.0-14+deb12u1",
+				"/bookworm/linux-libc-dev:amd64=6.1.148-1"
 			],
 			"filename": "pool/main/g/gcc-12/libstdc++-12-dev_12.2.0-14+deb12u1_amd64.deb",
 			"name": "libstdc++-12-dev",
@@ -2159,7 +2173,8 @@
 				"/bookworm/libcrypt-dev:amd64=1:4.4.33-2",
 				"/bookworm/libcrypt1:amd64=1:4.4.33-2",
 				"/bookworm-security/linux-libc-dev:amd64=6.1.153-1",
-				"/bookworm/libc-dev-bin:amd64=2.36-9+deb12u13"
+				"/bookworm/libc-dev-bin:amd64=2.36-9+deb12u13",
+				"/bookworm/linux-libc-dev:amd64=6.1.148-1"
 			],
 			"filename": "pool/main/liby/libyang2/libyang2-dev_2.1.30-2_amd64.deb",
 			"name": "libyang2-dev",
@@ -2234,7 +2249,8 @@
 				"/bookworm/libsodium23:amd64=1.0.18-1",
 				"/bookworm/libpgm-dev:amd64=5.3.128~dfsg-2",
 				"/bookworm/libpgm-5.3-0:amd64=5.3.128~dfsg-2",
-				"/bookworm/libzmq5:amd64=4.3.4-6"
+				"/bookworm/libzmq5:amd64=4.3.4-6",
+				"/bookworm/linux-libc-dev:amd64=6.1.148-1"
 			],
 			"filename": "pool/main/z/zeromq3/libzmq3-dev_4.3.4-6_amd64.deb",
 			"name": "libzmq3-dev",
@@ -2286,6 +2302,17 @@
 			"size": 290036,
 			"suite": "bookworm",
 			"version": "1.5.4+dfsg2-5"
+		},
+		"/bookworm/linux-libc-dev:amd64=6.1.148-1": {
+			"architecture": "amd64",
+			"depends_on": [],
+			"filename": "pool/main/l/linux/linux-libc-dev_6.1.148-1_amd64.deb",
+			"name": "linux-libc-dev",
+			"section": "devel",
+			"sha256": "91eadd656d4d68934281fb648f3b2f308f0af4686d32b86160899083fb473ff1",
+			"size": 2176040,
+			"suite": "bookworm",
+			"version": "6.1.148-1"
 		},
 		"/bookworm/media-types:all=10.0.0": {
 			"architecture": "all",
@@ -2370,7 +2397,8 @@
 				"/bookworm-security/linux-libc-dev:amd64=6.1.153-1",
 				"/bookworm/libc-dev-bin:amd64=2.36-9+deb12u13",
 				"/bookworm/libexpat1-dev:amd64=2.5.0-1+deb12u2",
-				"/bookworm/libpython3-dev:amd64=3.11.2-1+b1"
+				"/bookworm/libpython3-dev:amd64=3.11.2-1+b1",
+				"/bookworm/linux-libc-dev:amd64=6.1.148-1"
 			],
 			"filename": "pool/main/p/python3-defaults/python3-dev_3.11.2-1+b1_amd64.deb",
 			"name": "python3-dev",
@@ -2567,7 +2595,8 @@
 				"/bookworm/libc-dev-bin:amd64=2.36-9+deb12u13",
 				"/bookworm/libexpat1-dev:amd64=2.5.0-1+deb12u2",
 				"/bookworm/python3.11:amd64=3.11.2-6+deb12u6",
-				"/bookworm/python3.11-minimal:amd64=3.11.2-6+deb12u6"
+				"/bookworm/python3.11-minimal:amd64=3.11.2-6+deb12u6",
+				"/bookworm/linux-libc-dev:amd64=6.1.148-1"
 			],
 			"filename": "pool/main/p/python3.11/python3.11-dev_3.11.2-6+deb12u6_amd64.deb",
 			"name": "python3.11-dev",
@@ -2814,7 +2843,8 @@
 				"/bookworm/libcrypt-dev:amd64=1:4.4.33-2",
 				"/bookworm/libcrypt1:amd64=1:4.4.33-2",
 				"/bookworm-security/linux-libc-dev:amd64=6.1.153-1",
-				"/bookworm/libc-dev-bin:amd64=2.36-9+deb12u13"
+				"/bookworm/libc-dev-bin:amd64=2.36-9+deb12u13",
+				"/bookworm/linux-libc-dev:amd64=6.1.148-1"
 			],
 			"filename": "pool/main/u/util-linux/uuid-dev_2.38.1-5+deb12u3_amd64.deb",
 			"name": "uuid-dev",
@@ -2848,7 +2878,8 @@
 				"/bookworm/libcrypt1:amd64=1:4.4.33-2",
 				"/bookworm-security/linux-libc-dev:amd64=6.1.153-1",
 				"/bookworm/libc-dev-bin:amd64=2.36-9+deb12u13",
-				"/bookworm/zlib1g:amd64=1:1.2.13.dfsg-1"
+				"/bookworm/zlib1g:amd64=1:1.2.13.dfsg-1",
+				"/bookworm/linux-libc-dev:amd64=6.1.148-1"
 			],
 			"filename": "pool/main/z/zlib/zlib1g-dev_1.2.13.dfsg-1_amd64.deb",
 			"name": "zlib1g-dev",

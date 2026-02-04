@@ -242,8 +242,8 @@ cc_shared_library(
       "-Wl,-rpath-link=$(BINDIR)/external/rules_distroless++apt+bookworm_libboost-serialization1.74-dev-amd64_1.74.0-ds1-21/usr/lib/x86_64-linux-gnu",
       "-Wl,-rpath=/usr/lib/x86_64-linux-gnu",
       # From the same target, but with absolute paths
-      "-L/home/blorente/.cache/bazel/_bazel_blorente/18e6b334ca347a689d90222d36b083c7/sandbox/linux-sandbox/28/execroot/_main/bazel-out/k8-fastbuild/bin/external/rules_distroless++apt+bookworm_libboost-serialization1.74-dev-amd64_1.74.0-ds1-21/usr/lib/x86_64-linux-gnu/",
-      "-Wl,-rpath-link=/home/blorente/.cache/bazel/_bazel_blorente/18e6b334ca347a689d90222d36b083c7/sandbox/linux-sandbox/28/execroot/_main/bazel-out/k8-fastbuild/bin/external/rules_distroless++apt+bookworm_libboost-serialization1.74-dev-amd64_1.74.0-ds1-21/usr/lib/x86_64-linux-gnu",
+      "-Lbazel-out/k8-fastbuild/bin/external/rules_distroless++apt+bookworm_libboost-serialization1.74-dev-amd64_1.74.0-ds1-21/usr/lib/x86_64-linux-gnu/",
+      "-Wl,-rpath-link=bazel-out/k8-fastbuild/bin/external/rules_distroless++apt+bookworm_libboost-serialization1.74-dev-amd64_1.74.0-ds1-21/usr/lib/x86_64-linux-gnu",
     ],
 )
 
